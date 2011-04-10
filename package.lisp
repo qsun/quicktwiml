@@ -1,5 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:quicktwiml
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:with-response))
 

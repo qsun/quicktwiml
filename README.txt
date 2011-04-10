@@ -1,1 +1,2 @@
-This is the stub README.txt for the "quicktwiml" project.
+quicktwiml is a quick common lisp wrapper for twilio ml.
+
