@@ -19,3 +19,12 @@
             (say "Please enter your account number, followed by the pound sign"))
     (say "We did not receive any input. Good bye!")))
 
+
+
+(with-output-to-string (s)
+  (quicktwiml:with-response (s)
+    (say "Please say your message after beep")
+    (record '(("action"  "http://ec2-com//receive-call")
+              ("method"  "POST")
+              ("maxLength"  "20")
+              ("finishOnKey"  "#")))))
